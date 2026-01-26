@@ -1,0 +1,21 @@
+.banner{
+    height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("sushi.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-darkglass {
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(6px);          
+}
+
+.navbar-darkglass .navbar-brand,
+.navbar-darkglass .nav-link {
+  color: #fff !important;
+}
+
+.navbar-darkglass .nav-link:hover {
+  color: #ffc107 !important; 
+}
