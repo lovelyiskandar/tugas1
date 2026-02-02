@@ -19,3 +19,15 @@
 .navbar-darkglass .nav-link:hover {
   color: #ffc107 !important; 
 }
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #ffff;
+}
+
+.main-color {
+  background-color: #1f2933;
+}
