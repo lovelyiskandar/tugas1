@@ -130,3 +130,25 @@
 .footer .social-icon:hover {
   color: #ffc107;
 }
+
+.produk-banner {
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("sushi.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-warning {
+  color:#5a3e36 !important
+}
+
+.btn-outline-warning {
+  border-color: #5a3e36;
+  color:#5a3e36;
+}
+
+.btn-outline-warning:hover {
+  background-color: #3b2f2f;
+  border-color: #3b2f2f;
+  color: #fff;
+}
