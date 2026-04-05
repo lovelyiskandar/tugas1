@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyResto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    
+    <!--navbar pembuka-->
+    <nav class="navbar navbar-expand-lg navbar-darkglass fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">Lyy's Resto</a>
+        <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="promo.html">Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="keranjang.html" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--navbar penutup-->
+
+<!--banner pembuka-->
+<div class="container-fluid produk-banner align-items-center d-flex justify-content-center">
+    <div class="container">
+        <h1 class="text-light text-center mb-3">Semua Promo Untuk Anda</h1>
+        <div class="col-md-8 offset-md-2">
+        </div>
+    </div>
+</div>
+<!--banner penutup-->
+
+
+<!--promo section-->
+<div class="container-fluid py-5">
+  <div class="container">
+    <!--kategori promo-->
+    <div class="row justify-content-center mb-4">
+      <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+        <div class="btn btn-outline-dark w-100 fs-5 filter-btn active" data-target="semuaPromo">
+          Semua Promo
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+        <div class="btn btn-outline-dark w-100 fs-5 filter-btn" data-target="diskonPromo">
+          Diskon Promo
+        </div>
+    </div>
+    <div class="col-sm-4 col-md-3 col-lg-2 mb-2">
+        <div class="btn btn-outline-dark w-100 fs-5 filter-btn" data-target="bonusPromo">
+          Bonus Promo
+        </div>
+    </div>
+    <!--card semua promo-->
+    <div id="semuaPromo" class="promo-section">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://sudachirecipes.com/wp-content/uploads/2023/04/salmonsashimi2-sq.jpg" data-lightbox="promo" data-title="Sashimi">
+              <img src="https://sudachirecipes.com/wp-content/uploads/2023/04/salmonsashimi2-sq.jpg" class="card-img-top" alt="Sashimi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Sashimi</h5>
+              <p class="card-text">Diskon 10% Hanya Rp72.000</p>
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://blog.japanwondertravel.com/wp-content/uploads/2023/07/nigiri-sushi.jpg" data-lightbox="promo" data-title="Nigirizushi">
+              <img src="https://blog.japanwondertravel.com/wp-content/uploads/2023/07/nigiri-sushi.jpg" class="card-img-top" alt="Nigirizushi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Nigirizushi</h5>
+              <p class="card-text">Diskon 15% di jam 8-9 malam </p>
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://cdn.savvytokyo.com/app/uploads/2020/01/iStock-1147944352.jpg" data-lightbox="promo" data-title="Ehomaki">
+              <img src="https://cdn.savvytokyo.com/app/uploads/2020/01/iStock-1147944352.jpg" class="card-img-top" alt="Ehomaki"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Ehomaki</h5>
+              <p class="card-text">Diskon 20% hanya Rp48.000</p>
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYpPyHeC1RA9qsSdV8KMJMfGInQ8xvwhGqw&s" data-lightbox="promo" data-title="Iwakuni">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYpPyHeC1RA9qsSdV8KMJMfGInQ8xvwhGqw&s" class="card-img-top" alt="Iwakuni"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Iwakuni</h5>
+              <p class="card-text">Diskon 10% hanya Rp55.800</p>
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://static.vecteezy.com/system/resources/previews/046/327/297/non_2x/futomaki-rolls-with-salmon-tobiko-and-greens-on-black-background-photo.jpg" data-lightbox="promo" data-title="Futomaki">
+              <img src="https://static.vecteezy.com/system/resources/previews/046/327/297/non_2x/futomaki-rolls-with-salmon-tobiko-and-greens-on-black-background-photo.jpg" class="card-img-top" alt="Futomaki"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Futomaki</h5>
+              <p class="card-text">Setiap pembelian 2 futomaki, gratis 1 shiromi</p>
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://tb-static.uber.com/prod/image-proc/processed_images/f6404e86957508dede8da533a22ded61/a19bb09692310dfd41e49a96c424b3a6.jpeg" data-lightbox="promo" data-title="Shiromi">
+              <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f6404e86957508dede8da533a22ded61/a19bb09692310dfd41e49a96c424b3a6.jpeg" class="card-img-top" alt="Shiromi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Shiromi</h5>
+              <p class="card-text">Setiap pembelian 3 shiromi, gratis 1 akami</p>
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://i.pinimg.com/736x/62/d3/35/62d335a64dd7dd82313ac9e2ba677528.jpg" data-lightbox="promo" data-title="Akami">
+              <img src="https://i.pinimg.com/736x/62/d3/35/62d335a64dd7dd82313ac9e2ba677528.jpg" class="card-img-top" alt="Akami"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Akami</h5>
+              <p class="card-text">Setiap pembelian 1 akami, gratis 1 akami</p>
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://media.japanesestation.com/images/original/2021/04/06/11811-makizushi.jpg" data-lightbox="promo" data-title="Makizushi">
+              <img src="https://media.japanesestation.com/images/original/2021/04/06/11811-makizushi.jpg" class="card-img-top" alt="Makizushi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Makizushi</h5>
+              <p class="card-text">Cashback 10% min pembelian Rp100.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--card diskon promo-->
+    <div id="diskonPromo" class="promo-section">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://sudachirecipes.com/wp-content/uploads/2023/04/salmonsashimi2-sq.jpg" data-lightbox="promo" data-title="Sashimi">
+              <img src="https://sudachirecipes.com/wp-content/uploads/2023/04/salmonsashimi2-sq.jpg" class="card-img-top" alt="Sashimi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Sashimi</h5>
+              <p class="card-text">Diskon 10% Hanya Rp72.000</p>
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://blog.japanwondertravel.com/wp-content/uploads/2023/07/nigiri-sushi.jpg" data-lightbox="promo" data-title="Nigirizushi">
+              <img src="https://blog.japanwondertravel.com/wp-content/uploads/2023/07/nigiri-sushi.jpg" class="card-img-top" alt="Nigirizushi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Nigirizushi</h5>
+              <p class="card-text">Diskon 15% di jam 8-9 malam </p>
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://cdn.savvytokyo.com/app/uploads/2020/01/iStock-1147944352.jpg" data-lightbox="promo" data-title="Ehomaki">
+              <img src="https://cdn.savvytokyo.com/app/uploads/2020/01/iStock-1147944352.jpg" class="card-img-top" alt="Ehomaki"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Ehomaki</h5>
+              <p class="card-text">Diskon 20% hanya Rp48.000</p>
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYpPyHeC1RA9qsSdV8KMJMfGInQ8xvwhGqw&s" data-lightbox="promo" data-title="Iwakuni">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYpPyHeC1RA9qsSdV8KMJMfGInQ8xvwhGqw&s" class="card-img-top" alt="Iwakuni"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Iwakuni</h5>
+              <p class="card-text">Diskon 10% hanya Rp55.800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--card bonus promo-->
+    <div id="bonusPromo" class="promo-section" style="display:none;">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://static.vecteezy.com/system/resources/previews/046/327/297/non_2x/futomaki-rolls-with-salmon-tobiko-and-greens-on-black-background-photo.jpg" data-lightbox="promo" data-title="Futomaki">
+              <img src="https://static.vecteezy.com/system/resources/previews/046/327/297/non_2x/futomaki-rolls-with-salmon-tobiko-and-greens-on-black-background-photo.jpg" class="card-img-top" alt="Futomaki"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Futomaki</h5>
+              <p class="card-text">Setiap pembelian 2 futomaki, gratis 1 shiromi</p>
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://tb-static.uber.com/prod/image-proc/processed_images/f6404e86957508dede8da533a22ded61/a19bb09692310dfd41e49a96c424b3a6.jpeg" data-lightbox="promo" data-title="Shiromi">
+              <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f6404e86957508dede8da533a22ded61/a19bb09692310dfd41e49a96c424b3a6.jpeg" class="card-img-top" alt="Shiromi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Shiromi</h5>
+              <p class="card-text">Setiap pembelian 3 shiromi, gratis 1 akami</p>
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://i.pinimg.com/736x/62/d3/35/62d335a64dd7dd82313ac9e2ba677528.jpg" data-lightbox="promo" data-title="Akami">
+              <img src="https://i.pinimg.com/736x/62/d3/35/62d335a64dd7dd82313ac9e2ba677528.jpg" class="card-img-top" alt="Akami"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Akami</h5>
+              <p class="card-text">Setiap pembelian 1 akami, gratis 1 akami</p>
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+          <div class="card">
+            <a href="https://media.japanesestation.com/images/original/2021/04/06/11811-makizushi.jpg" data-lightbox="promo" data-title="Makizushi">
+              <img src="https://media.japanesestation.com/images/original/2021/04/06/11811-makizushi.jpg" class="card-img-top" alt="Makizushi"/>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Makizushi</h5>
+              <p class="card-text">Cashback 10% min pembelian Rp100.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </div>
+</div>
+
+<!--pembuka subscribe-->
+<div class="container-fluid py-5 footer">
+  <div class="container">
+    <h5 class="text-center text-light mb-3">Temui Kami</h5>
+    <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+  <a href="https://facebook.com/username" target="_blank" class="social-icon">
+    <i class="bi bi-facebook"></i>
+  </a>
+   <a href="https://instagram.com/username" target="_blank" class="social-icon">
+    <i class="bi bi-instagram"></i>
+  </a>
+   <a href="https://twitter.com/username" target="_blank" class="social-icon">
+    <i class="bi bi-twitter-x"></i>
+  </a>
+   <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+    <i class="bi bi-youtube"></i>
+  </a>
+</div>
+<h5 class="text-center text-light mb-1">Subscribe</h5>
+<p class="text-center text-white-50 mb-3">untuk informasi tentang produk</p>
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="input-group">
+      <input type="email" class="form-control" placeholder="Ketikkan Email">
+      <button class="btn btn-dark text-light">Subscribe</button>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!--penutup section subscribe-->
+
+<!--pembuka footer-->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-4 mb-md-0">
+        <h5 class="fw-bold">Lyy's Resto</h5>
+        <p class="text-white-50 small">Tempat terbaik untuk menikmati sushi segar, lezat, dan dibuat dengan 
+          bahan berkualitas dalam suasana yang nyaman.</p>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h6 class="fw-bold mb-3">Navigasi</h6>
+        <ul class="list-unstyled">
+          <li><a href="index1.html" class="text-white-50 text-decoration-none">Home</a></li>
+          <li><a href="produk.html" class="text-white-50 text-decoration-none">Produk</a></li>
+          <li><a href="promo.html" class="text-white-50 text-decoration-none">Promo</a></li>
+          <li><a href="keranjang.html" class="text-white-50 text-decoration-none">Reservasi</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="fw-bold mb-3">Kontak</h6>
+        <ul class="list-unstyled text-white-50 small">
+          <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Super No.127, Bandung</li>
+          <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 881 1296 1127</li>
+          <li><i class="bi bi-envelope-fill me-2"></i>lyysrestaurant@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary mt-4 mb-3">
+    <p class="text-center text-white-50 small mb-0">
+      &copy; 2026 Lyy's Resto. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+<script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script>
+  const filterBtns = document.querySelectorAll(".filter-btn");
+  const sections = ["semuaPromo","diskonPromo","bonusPromo"];
+
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      var target = btn.getAttribute("data-target");
+
+      filterBtns.forEach(function(b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+
+      sections.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (id === target) {
+          el.style.display = "block";
+
+          el.classList.remove("promo-section");
+          void el.offsetWidth;
+          el.classList.add("promo-section");
+        } else {
+          el.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
